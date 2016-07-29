@@ -1,3 +1,3 @@
 # yawenina.github.io
 
-A personal blog build by Vue.js + vue-router + vuex + wilddog
+A personal blog built with Vue.js + vue-router + vuex + wilddog
