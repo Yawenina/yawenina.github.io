@@ -15,7 +15,8 @@ li {
   list-style: none; }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #F1F8FD; }
 
 header {
   background: url(../img/person-mountain-hiker-hiking.jpg) no-repeat center center scroll;
@@ -120,6 +121,9 @@ main {
   height: 100%;
   right: 104.5%; }
 
+.education h4 span {
+  margin-right: 20px; }
+
 .skills .desc {
   flex-direction: column; }
   .skills .desc .each {
@@ -173,7 +177,8 @@ main {
     padding: 10px; }
 
   .career {
-    padding: 0px; }
+    padding: 0px;
+    margin-top: 20px; }
 
   .info {
     margin-top: 10%;
@@ -201,5 +206,14 @@ main {
 
   .interests .desc {
     justify-content: space-around; } }
+.print {
+  display: none; }
+
+@media print {
+  .print {
+    display: block; }
+
+  .no-print {
+    display: none; } }
 
 /*# sourceMappingURL=resume.css.map */
